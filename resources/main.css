@@ -5,35 +5,26 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
+/* 	font-family: 'Gentium Basic', sans-serif; */
 	font-family: 'Raleway', sans-serif;
+
 }
 
 body {
 	color: #F8F8F8;
-/* 	background-image:url(../resources/background.jpg); */
-/*
-	background-image:url(../resources/iu-4.jpeg);
-	background-position:center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-*/
+    overflow-x: hidden;
 }
 
-.lander {
-/* 	width: 100%; */
-/* 	height: 100%; */
+a:link, a:visited {
+	color:inherit;
+	text-decoration: none;
 }
 
 .background-lander {
 
 	height: 100vh;
 	width: 100%;
-/* 	max-height: 700px; */
 	position: absolute;
-/* 	padding-top: 66.66%; */
-	 /* (img-height / img-width * container-width) */
-                /* (320 / 480 * 100) */
 	
 	 	background-image:url(../resources/background.jpg); 
 	/*background-image:url(../resources/iu-4.jpeg);*/
@@ -41,8 +32,6 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	
-/* 	background: rgba(0, 0, 0, 0.35); */
 
 	-webkit-filter: brightness(0.65);
 	-moz-filter: brightness(0.65);
@@ -58,7 +47,8 @@ body {
 	margin: 0 auto;
 	display:flex;
 	margin-top: 30px;
-	max-width: 1200px;
+	margin-bottom: 30px;
+	max-width: 1000px;
 	position: relative;
 	z-index: 10;
 }
@@ -66,19 +56,13 @@ body {
 .home {
 	font-size: 24px;	
 	font-weight: bold;
-	min-width: 150px;
+	min-width: 200px;
 	margin-top: 11px;
 	margin-left: 50px;
 }
 
-.team {
-	position: relative;
-	color: black;
-}
-
 .right-aligned-container {
 	display: flex;
-/* 	flex-wrap: wrap; */
 	justify-content: flex-end;
 	padding-top: 6px;
 }
@@ -113,8 +97,26 @@ body {
 	text-align: center;
 }
 
+/*Framework*/
+
+.grid {
+	justify-content: center;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 1000px;
+}
+
 .col-3 {
 	width: 25%;
+}
+
+.col-4 {
+	width: 33%;
+	position: relative;
 }
 
 .col-6 {
