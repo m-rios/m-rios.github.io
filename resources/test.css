@@ -1,36 +1,36 @@
 body {
-	background-color: #e2e1e0;
+  background: #e2e1e0;
+  font-family: "Raleway";
+  color: #141414;
 }
 
-.about-content {
-	margin-top: 70px;
-
+.test-container {
 	position: absolute;
 	left: 0;
 	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
 
-	margin: 30px auto 50px auto;
+	width: 600px;
+	height: 600px;
 
-	max-width: 800px;
-
-	background: #fff;
+    background: #fff;
   	border-radius: 2px;
   	display: inline-block;
   	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-.about-title {
-	margin-top: 50px;
-	text-align: center;
-	margin-bottom: 50px;
-	font-size: 30px;
-	font-weight: bold;
-	color: #4C4C4C;
-}
+.avatar-container {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
 
-.team-grid {
-	margin: 0 auto;
-	max-width: 800px;
+	width: 200px;
+	height: 200px;
 }
 
 .team-member {
@@ -39,15 +39,9 @@ body {
 	width: 200px;
 	height: 200px;
 
-	margin: 0 auto;
-
 	border-radius: 1000px;
-	/*border: solid;*/
-	/*border-color: #4C4C4C;*/
-	
-	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	border: solid;
+	border-color: #141414;
 }
 
 .headshot {
@@ -85,10 +79,6 @@ h6 {
 
 /*-------------Hover behaviour--------------*/
 
-.team-member:hover {
-	box-shadow: 0 28px 32px rgba(0,0,0,0.25), 0 16px 16px rgba(0,0,0,0.22);
-}
-
 .team-member:hover .headshot {
 	-webkit-filter: brightness(0.5);
 	-moz-filter: brightness(0.5);
@@ -113,11 +103,4 @@ h6 {
 	-o-transition: 1s;
 	-ms-transition: 1s;
 	transition: 1s;
-}
-
-
-/*-------------Override other styles--------------*/
-
-.header {
-	color: #3e3f3f;
 }
