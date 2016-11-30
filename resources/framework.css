@@ -12,6 +12,7 @@
 body {
 	color: #F8F8F8;
     overflow-x: hidden;
+    background-color: #e2e1e0;
 }
 
 a:link, a:visited {
@@ -84,7 +85,6 @@ a:link, a:visited {
 .content {
 	min-height: calc(100vh - 50px);
 	width: 100%;
-	
 }
 
 /*-------------Footer---------------*/

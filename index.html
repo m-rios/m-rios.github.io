@@ -2,8 +2,15 @@
 <html>
 <head>
 	<title>Utopian Robotics</title>
-	<link rel="stylesheet" type="text/css" href="resources/main.css">
 	<link rel="stylesheet" type="text/css" href="resources/framework.css">
+	<link rel="stylesheet" type="text/css" href="resources/main.css">
+	<link rel="stylesheet" type="text/css" href="resources/about.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
+	<script src="jquery.localscroll.js" type="text/javascript"></script> 
+	<script src="jquery.scrollTo.js" type="text/javascript"></script> 
+	<script src="resources/main.js" type="text/javascript"></script> 
+
 <!-- 	<link rel="stylesheet" type="text/css" href="resources/side-nav.css"> -->
 	<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Gentium+Basic:400,700" rel="stylesheet">
@@ -13,10 +20,13 @@
 </script> 
 </head>
 <body>	
+
+	<!-- Header_________________________________________________ -->
+	<a name="linktotop"></a>
 	<div class="header">
 		<div class="col-3">
 			<div class="home">
-				<a href="index.html">Utopian Robotics</a>
+				<a href="#linktotop">Utopian Robotics</a>
 			</div>
 		</div>
 		<div class="col-6">
@@ -24,7 +34,7 @@
 		<div class="col-3">
 			<div class=right-aligned-container>
 				<div class="about">
-					<a href="about.html"> About </a>
+					<a href="#linktoabout"> About </a>
 				</div>
 				<div class="blog">
 					Blog
@@ -38,11 +48,121 @@
 		</div>
 	</div>
 
+	<!-- Content_________________________________________________ -->
 	<div class="content">
+		<!-- Landing_________________________________________________ -->
 		<div class="background-lander">
-		</div>	
+		</div>
+
+		<!-- Meet the team_______________________________________________ -->
+		<a name="linktoabout"></a>
+		<div class="about-content" id="about">
+			<div class="about-title">
+				Meet the team!
+			</div>
+			
+			<div class="team-grid">
+				<div class="grid">
+					<div class="row">
+						<div class="col-4">
+
+							<div class="team-member">
+								<a class="round-link" href="member.html">
+									<div class="headshot" style="background-image: url('resources/images/alan.jpeg');">					
+									</div>
+									<div class="member-description">
+										<h6>Gonzalo</h6>
+										<p>Born manipulator.</p>
+									</div>
+								</a>
+							</div>
+
+						</div>
+						<div class="col-4">
+
+							<div class="team-member">
+								<a class="round-link" href="member.html">
+									<div class="headshot" style="background-image: url('resources/images/alan.jpeg');">					
+									</div>
+									<div class="member-description">
+										<h6>Sofía</h6>
+										<p>Money maker.</p>
+									</div>
+								</a>
+							</div>
+
+						</div>
+						<div class="col-4">
+
+							<div class="team-member">
+								<a class="round-link" href="member.html">
+									<div class="headshot" style="background-image: url('resources/images/alan.jpeg');">					
+									</div>
+									<div class="member-description">
+										<h6>Miguel</h6>
+										<p>Control ninja.</p>
+									</div>
+								</a>
+							</div>
+
+						</div>
+					</div>
+					<div class="row" style="height: 50px">
+					</div>
+					<div class="row">
+						<div class="col-4">
+
+							<div class="team-member">
+								<a class="round-link" href="member.html">
+									<div class="headshot" style="background-image: url('resources/images/alan.jpeg');">					
+									</div>
+									<div class="member-description">
+										<h6>Rodrigo</h6>
+										<p>Alan's navigator.</p>
+									</div>
+								</a>
+							</div>
+
+						</div>
+						<div class="col-4">
+
+							<div class="team-member">
+								<a class="round-link" href="member.html">
+									<div class="headshot" style="background-image: url('resources/images/alan.jpeg');">					
+									</div>
+									<div class="member-description">
+										<h6>Alan</h6>
+										<p>I, robot.</p>
+									</div>
+								</a>
+							</div>
+
+						</div>
+						<div class="col-4">
+
+							<div class="team-member">
+								<a class="round-link" href="member.html">
+									<div class="headshot" style="background-image: url('resources/images/mario.png');">					
+									</div>
+									<div class="member-description">
+										<h6>Mario</h6>
+										<p>Linux lover.</p>
+									</div>
+								</a>
+							</div>
+
+						</div>
+					</div>
+					<div class="row" style="height: 50px">
+					</div>
+				</div>	
+
+			</div>
+		</div>
+		<!-- Moar stuff_________________________________________________ -->
 	</div>
 
+	<!-- Footer_________________________________________________ -->
 	<div class="footer">
 		<div class="footer-content">
 			<div class="col-3">
