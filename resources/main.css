@@ -1,36 +1,14 @@
-
-* {
-    -webkit-box-sizing:  border-box;
-    -moz-box-sizing:  border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-/* 	font-family: 'Gentium Basic', sans-serif; */
-	font-family: 'Raleway', sans-serif;
-
-}
-
-body {
-	color: #F8F8F8;
-    overflow-x: hidden;
-}
-
-a:link, a:visited {
-	color:inherit;
-	text-decoration: none;
-}
-
 .background-lander {
 
 	height: 100vh;
 	width: 100%;
-	position: absolute;
+	/*position: absolute;*/
 	
 	 	background-image:url(../resources/background.jpg); 
 	/*background-image:url(../resources/iu-4.jpeg);*/
 	background-position:center center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	background-size: cover;
 
 	-webkit-filter: brightness(0.65);
@@ -43,82 +21,6 @@ a:link, a:visited {
 	z-index: 0;
 }
 
-.header {
-	margin: 0 auto;
-	display:flex;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	max-width: 1000px;
-	position: relative;
-	z-index: 10;
-}
-
-.home {
-	font-size: 24px;	
-	font-weight: bold;
-	min-width: 200px;
-	margin-top: 11px;
-	margin-left: 50px;
-}
-
-.right-aligned-container {
-	display: flex;
-	justify-content: flex-end;
-	padding-top: 6px;
-}
-
-.about {
-	margin-top: 11px;
-	margin-left:30px;
-	font-size: 18px;
-}
-
-.blog {
-	margin-left:30px;
-	margin-top: 11px;
-	font-size: 18px;
-}
-
-.contact {
-	margin-top: 6px;
-	font-size: 18px;
-	margin-left: 30px;
-	margin-right: 50px;
-	border-radius: 1000px;
-	width: 114px;
-	height: 36px;
-	min-width: 114px;
-	max-width: 114px;
-	background-color: #F26D5B;
-}
-
-.contact-text {
-	margin-top: 5px;
-	text-align: center;
-}
-
-/*Framework*/
-
-.grid {
-	justify-content: center;
-}
-
-.row {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	max-width: 1000px;
-}
-
-.col-3 {
-	width: 25%;
-}
-
-.col-4 {
-	width: 33%;
-	position: relative;
-}
-
-.col-6 {
-	width: 50%;
+.content {
+	min-height: 100vh;
 }

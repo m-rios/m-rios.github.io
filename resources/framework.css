@@ -84,11 +84,12 @@ a:link, a:visited {
 .content {
 	min-height: calc(100vh - 50px);
 	width: 100%;
+	
 }
 
 /*-------------Footer---------------*/
 
-.footer-content {
+.footer {
 	position: relative;
 	bottom: 0;
 	width: 100%;
@@ -96,13 +97,18 @@ a:link, a:visited {
 	height: 50px;
 
 	background: #414141;
+	z-index: 10;
 }
 
-.footer {
-	position: relative;
+.footer-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: 			translateY(-50%);	
 	
 	max-width: 1000px;
-	margin: 0 auto;
+	margin: auto;
 	
 	display:flex;		
 	
