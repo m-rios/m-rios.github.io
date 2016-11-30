@@ -1,106 +1,42 @@
 body {
   background: #e2e1e0;
   font-family: "Raleway";
-  color: #141414;
 }
 
-.test-container {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	margin: auto;
 
-	width: 600px;
-	height: 600px;
+* {
+    -webkit-box-sizing:  border-box;
+    -moz-box-sizing:  border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+	font-family: 'Raleway', sans-serif;
 
-    background: #fff;
-  	border-radius: 2px;
-  	display: inline-block;
-  	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-.avatar-container {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	margin: auto;
-
-	width: 200px;
-	height: 200px;
-}
-
-.team-member {
+.footer-content {
 	position: relative;
-
-	width: 200px;
-	height: 200px;
-
-	border-radius: 1000px;
-	border: solid;
-	border-color: #141414;
-}
-
-.headshot {
+	bottom: 0;
 	width: 100%;
-	height: 100%;
 
-	border-radius: 1000px;
+	height: 50px;
 
-	background-position:center center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: #414141;
 }
 
-.member-description {
-	position: absolute;
+.footer {
+	position: relative;
+	
+	max-width: 1000px;
+	margin: 0 auto;
+	
+	display:flex;		
+	
+}
+
+.header {
+	position: fixed;
 	left: 0;
 	right: 0;
-	top: 50%;
-	transform: 			translateY(-50%);	
-
-	text-align: center;
-
-	color: #ffffff;
-
-	opacity: 0;
-	visibility: hidden;
-}
-
-h6 {
-	font-family: "Raleway";
-	font-weight: bold;
-	font-size: 16px;
-	margin-bottom: 6px;
-}
-
-/*-------------Hover behaviour--------------*/
-
-.team-member:hover .headshot {
-	-webkit-filter: brightness(0.5);
-	-moz-filter: brightness(0.5);
-	-o-filter: brightness(0.5);
-	-ms-filter: brightness(0.5);
-	filter: brightness(0.5);
-
-	-webkit-transition: 0.5s;
-	-moz-transition: 0.5s;
-	-o-transition: 0.5s;
-	-ms-transition: 0.5s;
-	transition: 0.5s;
-}
-
-.team-member:hover .member-description {
-
-	opacity: 1;
-	visibility: visible;
-	
-	-webkit-transition: 1s;
-	-moz-transition: 1s;
-	-o-transition: 1s;
-	-ms-transition: 1s;
-	transition: 1s;
+	top: 0;
 }

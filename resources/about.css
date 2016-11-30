@@ -33,6 +33,13 @@ body {
 	max-width: 800px;
 }
 
+.round-link {
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+}
+
 .team-member {
 	position: relative;
 
