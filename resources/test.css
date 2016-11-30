@@ -1,0 +1,42 @@
+body {
+  background: #e2e1e0;
+  font-family: "Raleway";
+}
+
+
+* {
+    -webkit-box-sizing:  border-box;
+    -moz-box-sizing:  border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.footer-content {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+
+	height: 50px;
+
+	background: #414141;
+}
+
+.footer {
+	position: relative;
+	
+	max-width: 1000px;
+	margin: 0 auto;
+	
+	display:flex;		
+	
+}
+
+.header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
