@@ -1,0 +1,61 @@
+.member-cv {
+	margin: 25px auto 0 auto;
+	font-size: 18px;
+	color: #3b3b3b;
+	max-width: 600px;
+	text-align: justify;
+}
+
+.media-link
+{
+	margin: 0 10px 0 10px;
+}
+
+.member-social-media {
+	margin: 25px auto 0 auto;	
+
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.media-icon {
+	width: 24px;
+	height: 24px;
+	background-size: 24px 24px;
+}
+
+
+
+/*-------------Override other styles--------------*/
+
+.header{
+	background-color: #e1c30d;
+	opacity: 0.9;
+	color: #3b3b3b;
+	
+	/*-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);*/
+
+	padding-top: 7px;
+	padding-bottom: 10px;
+	height: 70px;
+}
+
+.about-content {
+	margin-top: 70px;
+	/*background: #e1c30d;*/
+	background: #56ca0e;
+	padding-bottom: 50px;
+}
+
+.team-member:hover .headshot {
+	-webkit-filter: brightness(1);
+	-moz-filter: brightness(1);
+	-o-filter: brightness(1);
+	-ms-filter: brightness(1);
+	filter: brightness(1);
+}
