@@ -34,7 +34,11 @@ a:link, a:visited {
 	margin-bottom: 30px;
 	max-width: 1000px;
 	
-	display:flex;
+	display: flex;
+}
+
+.header.fill {
+	color: black;
 }
 
 .home {

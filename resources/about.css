@@ -12,9 +12,9 @@
 	/*margin: 30px auto 50px auto;*/
 
 	margin: 0 auto;
-	margin-bottom: calc(50px + 50px); /*margin + footer size*/
+	margin-bottom: 100px; /*margin + footer size*/
 
-	max-width: 800px;
+	max-width: 900px;
 
 	background: #fff;
   	border-radius: 3px;
