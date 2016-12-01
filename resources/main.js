@@ -16,14 +16,13 @@ $(document).ready(function(){
 		});
 	});
 
-	var landing_end = $("#landing").height() - $(".header").height();
-
+	var landing_end = $("#landing").height() - $(".header").height()
 	$(window).on("scroll", function () {
 		if ($(this).scrollTop() > landing_end ) {
-			$("#puta").addClass("fill");
+			$("#header").addClass("fill");
 		}
 		else {
-			$("#puta").removeClass("fill");
+			$("#header").removeClass("fill");
 		}
 	});
 
