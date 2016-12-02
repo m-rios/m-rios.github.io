@@ -51,9 +51,13 @@ i {
 
 .material-panel {
 	margin-top: 70px;
-	background: #e1c30d;
+	background: #f0c808;
+	/*background: #ecbf31;*/
+
+	/*#ecbf31*/
 	/*background: #56ca0e;*/
 	padding-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 .team-member:hover .headshot {

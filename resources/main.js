@@ -16,7 +16,18 @@ $(document).ready(function(){
 		});
 	});
 
+	var scrollTop     = $(window).scrollTop(),
+	headerOffset = $('#header').offset().top;
 	var landing_end = $("#landing").height() - $(".header").height()
+
+	if (headerOffset > landing_end) 
+	{
+		$("#header").addClass("fill");
+	}
+	else {
+		$("#header").removeClass("fill");
+	}
+	
 	$(window).on("scroll", function () {
 		if ($(this).scrollTop() > landing_end ) {
 			$("#header").addClass("fill");

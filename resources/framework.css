@@ -31,7 +31,8 @@ a:link, a:visited {
 	top: 0;
 	z-index: 10;
 
-	padding-top: 30px;
+	/*padding-top: 30px;*/
+	padding: 30px 30px 0 30px;
 
 	width: 100%;
 	height: 110px;
@@ -106,21 +107,27 @@ a:link, a:visited {
 
 /*-------------Content---------------*/
 .content {
+	position: relative;
 	min-height: calc(100vh - 100px);
 	width: 100%;
+	background: #e2e1e0;
+	margin-bottom: 150px;
+	padding-bottom: 50px;
+	z-index: 5;
+	box-shadow: 0 1px 16px rgba(0,0,0,0.22), 0 1px 8px rgba(0,0,0,0.36);
 }
 
 /*-------------Footer---------------*/
 
 .footer {
-	position: relative;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 
-	height: 100px;
+	height: 150px;
 
 	background: #414141;
-	z-index: 10;
+	z-index: 0;
 }
 
 .footer-content {
@@ -135,6 +142,41 @@ a:link, a:visited {
 	
 	display:flex;		
 	
+}
+
+.footer-right-side
+{
+	position: relative;
+	left: 0;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.footer-right-text {
+	position: relative;
+	text-align: center;
+	margin: auto;
+	display: inline-block;
+}
+
+.footer-social-media {
+	color: #f3f3f3;
+	margin: 5px auto;
+}
+
+.logo {
+	width: 50px;
+	height: 34px;
+	/*background: white;*/
+	display: block;
+
+	background-size: 50px 34px;
+	background-image: url(logo.png);
+}
+
+.media-link
+{
+	margin: 0 10px 0 10px;
 }
 
 /*-------------Framework---------------*/
