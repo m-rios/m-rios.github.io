@@ -30,19 +30,3 @@
 	position: relative;
 	top: -70px;
 }
-
-#contact-panel {
-	margin-bottom: 100px;
-	background: #473AAB;
-	height: 300px;
-}
-
-.input-field {
-	margin: 20px auto 0 auto;
-}
-
-#email-input {
-	max-width: 200px;
-	height: 50px;
-	border: 0px;
-}

@@ -1,6 +1,7 @@
 body {
   background: #e2e1e0;
   font-family: "Raleway";
+  color: 
 }
 
 
@@ -14,29 +15,48 @@ body {
 
 }
 
-.footer-content {
-	position: relative;
-	bottom: 0;
-	width: 100%;
-
-	height: 50px;
-
-	background: #414141;
+#contact-panel {
+	background: #380395;
 }
 
-.footer {
-	position: relative;
-	
-	max-width: 1000px;
+#contact-title {
+	color: #f0f0f0;
+}
+
+.contact-content {
+	max-width: 400px;
 	margin: 0 auto;
-	
-	display:flex;		
-	
+	padding-bottom: 30px;
 }
 
-.header {
-	position: fixed;
-	left: 0;
-	right: 0;
+.field {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.field-title {
+
+}
+
+.field-input {
+	margin-top: 6px;
+	position: relative;
+	height: 30px;
+}
+
+.input-box {
+	position: absolute;
 	top: 0;
+	border: none;
+	height: 30px;
+}
+
+.input-box:focus {
+	outline: none;
+	box-shadow: inset 0 2px 4px rgba(0,0,0,0.12), inset 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#message {
+	height: 150px;
+	resize: none;
 }
