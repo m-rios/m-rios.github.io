@@ -1,7 +1,6 @@
 body {
   background: #e2e1e0;
   font-family: "Raleway";
-  color: 
 }
 
 
@@ -59,4 +58,21 @@ body {
 #message {
 	height: 150px;
 	resize: none;
+}
+
+.button-wrapper {
+	max-width: 114px;
+	margin: 0 auto;
+}
+
+.round-button {
+	margin: 0 auto;
+	border: none;
+	border-radius: 36px;
+	height: 36px;
+	width: 114px;
+	background: #2fcd69;
+	left: 0;
+	right: 0;
+	outline: none;
 }
