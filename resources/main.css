@@ -9,7 +9,6 @@
 	/*background-image:url(../resources/iu-4.jpeg);*/
 	background-position:center center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
 
 	-webkit-filter: brightness(0.65);
