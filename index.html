@@ -36,7 +36,7 @@
 					</div>
 					<div class="contact">
 						<p class="contact-text">
-						Contact
+							Contact
 						</p>
 					</div>
 				</div>
@@ -155,12 +155,38 @@
 
 			</div>
 		</div>
-		<!-- Moar stuff_________________________________________________ -->
+		<!-- Contact_________________________________________________ -->
 		<div class="material-panel" id="contact-panel">
-			<div class="input-field">
-				<input type="text" name="email" class="material-panel" id="email-input">
-			</div>
+			<div class="about-title" id="contact-title">Contact us</div>
+
+			<form class="contact-content" id="contact-form" name="contact-form">
+
+				<div class="field">
+					<div class="field-title">Name</div>
+					<div class="field-input">
+						<input type="text" name="name" class=" input-box" required>					
+					</div>
+				</div>
+
+				<div class="field">
+					<div class="field-title">Address</div>
+					<div class="field-input">
+						<input type="email" name="email" class=" input-box" required>					
+					</div>
+				</div>
+
+				<div class="field">
+					<div class="field-title">Message</div>
+					<div class="field-input message">
+						<textarea id="message" class="input-box message" form="contact-form" required></textarea>
+					</div>
+				</div>
+				<div class="button-wrapper">
+					<input type="submit" name="submit" class="round-button" value="Send">
+				</div>
+			</form>			
 		</div>
+		
 	</div>
 
 	<!-- Footer_________________________________________________ -->

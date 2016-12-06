@@ -14,29 +14,65 @@ body {
 
 }
 
-.footer-content {
-	position: relative;
-	bottom: 0;
-	width: 100%;
-
-	height: 50px;
-
-	background: #414141;
+#contact-panel {
+	background: #380395;
 }
 
-.footer {
-	position: relative;
-	
-	max-width: 1000px;
+#contact-title {
+	color: #f0f0f0;
+}
+
+.contact-content {
+	max-width: 400px;
 	margin: 0 auto;
-	
-	display:flex;		
-	
+	padding-bottom: 30px;
 }
 
-.header {
-	position: fixed;
+.field {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.field-title {
+
+}
+
+.field-input {
+	margin-top: 6px;
+	position: relative;
+	height: 30px;
+}
+
+.input-box {
+	position: absolute;
+	top: 0;
+	border: none;
+	height: 30px;
+}
+
+.input-box:focus {
+	outline: none;
+	box-shadow: inset 0 2px 4px rgba(0,0,0,0.12), inset 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#message {
+	height: 150px;
+	resize: none;
+}
+
+.button-wrapper {
+	max-width: 114px;
+	margin: 0 auto;
+}
+
+.round-button {
+	margin: 0 auto;
+	border: none;
+	border-radius: 36px;
+	height: 36px;
+	width: 114px;
+	background: #2fcd69;
 	left: 0;
 	right: 0;
-	top: 0;
+	outline: none;
 }
