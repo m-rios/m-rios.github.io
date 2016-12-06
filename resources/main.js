@@ -50,7 +50,9 @@ $(document).ready(function(){
 		console.log( dson);
 		event.preventDefault();
 
-		jQuery.post("https://v1wesefrvk.execute-api.eu-central-1.amazonaws.com/prod/sendContactForm", dson, "json");
+		$('#send-button').prop('value','Sending')
+		jQuery.post("https://v1wesefrvk.execute-api.eu-central-1.amazonaws.com/prod/sendContactForm", dson, function (data) {$('#contact-form').hide(); $('#contact-success').show();},"json");
+		
 	});
 
 });
