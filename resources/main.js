@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var $ = jQuery.noConflict();
+	// var $ = jQuery.noConflict();
 
 	$(function() {
 		$('a[href*="#"]:not([href="#"])').click(function() {
@@ -35,6 +35,22 @@ $(document).ready(function(){
 		else {
 			$("#header").removeClass("fill");
 		}
+	});
+
+	$( "form" ).submit(function( event ) {
+
+		var data = $(this).serializeArray().reduce(function(obj, item) {
+			obj[item.name] = item.value;
+			return obj;
+		}, {});
+
+		data["msg"] = $("#message").val()
+
+		dson = JSON.stringify(data);
+		console.log( dson);
+		event.preventDefault();
+
+		jQuery.post("https://v1wesefrvk.execute-api.eu-central-1.amazonaws.com/prod/sendContactForm", dson, "json");
 	});
 
 });

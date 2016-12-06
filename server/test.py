@@ -1,7 +1,6 @@
 import smtplib
 from email.mime.text import MIMEText
 
-
 def send_email(address, name, in_msg):
     msg = MIMEText(in_msg)
     msg['Subject'] = 'Contact form from %s address: %s' % (name, address)
@@ -25,7 +24,4 @@ def send_email(address, name, in_msg):
         print "failed to send mail"
 
 
-def lambda_handler(event, context):
-    send_email(event["email"], event["name"], event["msg"])
-
-    return 'Contact form sent succesfully'
+send_email("mrm994@gmail.com", "Mario", "Mensaje mazo secreto")

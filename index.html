@@ -159,32 +159,32 @@
 		<div class="material-panel" id="contact-panel">
 			<div class="about-title" id="contact-title">Contact us</div>
 
-			<div class="contact-content">
+			<form class="contact-content" id="contact-form" name="contact-form">
 
 				<div class="field">
 					<div class="field-title">Name</div>
 					<div class="field-input">
-						<input type="text" name="name" class=" input-box">					
+						<input type="text" name="name" class=" input-box" required>					
 					</div>
 				</div>
 
 				<div class="field">
 					<div class="field-title">Address</div>
 					<div class="field-input">
-						<input type="email" name="email" class=" input-box">					
+						<input type="email" name="email" class=" input-box" required>					
 					</div>
 				</div>
 
 				<div class="field">
 					<div class="field-title">Message</div>
-					<div class="field-input" id="message">
-						<textarea id="message" class="input-box"></textarea>
+					<div class="field-input message">
+						<textarea id="message" class="input-box message" form="contact-form" required></textarea>
 					</div>
 				</div>
 				<div class="button-wrapper">
-					<input type="submit" name="submit" class="round-button">
+					<input type="submit" name="submit" class="round-button" value="Send">
 				</div>
-			</div>			
+			</form>			
 		</div>
 		
 	</div>
