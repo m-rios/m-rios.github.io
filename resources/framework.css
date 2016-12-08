@@ -1,19 +1,19 @@
 * {
-    -webkit-box-sizing:  border-box;
-    -moz-box-sizing:  border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-/* 	font-family: 'Gentium Basic', sans-serif; */
+	-webkit-box-sizing:  border-box;
+	-moz-box-sizing:  border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	/* 	font-family: 'Gentium Basic', sans-serif; */
 	font-family: 'Raleway', sans-serif;
 
 }
 
 body {
 	color: #F8F8F8;
-    overflow-x: hidden;
-    background-color: #e2e1e0;
-    font-size: 16px !important;
+	overflow-x: hidden;
+	background-color: #e2e1e0;
+	font-size: 16px !important;
 }
 
 a:link, a:visited {
@@ -32,8 +32,7 @@ a:link, a:visited {
 	top: 0;
 	z-index: 10;
 
-	/*padding-top: 30px;*/
-	padding: 30px 30px 0 30px;
+	padding-top: 10px;
 
 	width: 100%;
 	height: 110px;
@@ -41,14 +40,46 @@ a:link, a:visited {
 	transition: all 0.3s;
 }
 
+/*@media (min-width: @screen-md-min) { 
+	.header {
+		position: fixed;
+		margin: 0 auto;
+
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: 10;
+
+		padding: 30px 30px 0 30px;
+
+		width: 100%;
+		height: 110px;
+
+		transition: all 0.3s;
+	}
+}*/
+
 .header-content {	
 
 	margin: 0 auto;
-	max-width: 900px;
+	max-width: 1000px;
 	
-	opacity: 1;
+	color: #fff;
 
-	display: flex;
+}
+
+.hamburguer {
+	position: relative;
+	top: 30%;
+	transform: 			translateY(-50%);	
+}
+
+.bread {
+	position: relative;
+	height: 3px;
+	margin: 5px auto 0 auto;
+	width: 40px;
+	background: #fff;
 }
 
 .header.fill {
@@ -65,12 +96,24 @@ a:link, a:visited {
 }
 
 .home {
-	font-size: 24px;	
+	font-size: 20px;	
 	font-weight: bold;
-	min-width: 200px;
+	/*min-width: 200px;*/
 	margin-top: 11px;
+	display: inline-block;
+	text-align: center;
 }
 
+@media (min-width: @screen-md-min) { 
+
+	.home {
+		font-size: 24px;	
+		font-weight: bold;
+		min-width: 200px;
+		margin-top: 11px;
+	}
+
+}
 .right-aligned-container {
 	display: flex;
 	justify-content: flex-end;
@@ -124,8 +167,8 @@ a:link, a:visited {
 
 .material-board {
 	background: #fff;
-  	border-radius: 3px;
-  	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .board {
@@ -162,7 +205,7 @@ a:link, a:visited {
 	width: 100%;
 	/*position: absolute;*/
 	
-	 	background-image:url(../resources/background.jpg); 
+	background-image:url(../resources/background.jpg); 
 	/*background-image:url(../resources/iu-4.jpeg);*/
 	background-position:center center;
 	background-repeat: no-repeat;
@@ -303,9 +346,9 @@ h6 {
 	top: 0;
 	margin: 0 auto;
 	background: #727272;
-  	border-radius: 3px;
-  	/*display: inline-block;*/
-  	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-radius: 3px;
+	/*display: inline-block;*/
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .input-box:focus {
