@@ -3,50 +3,191 @@
 <head>
 	<title>About - Utopian Robotics</title>
 	<link rel="stylesheet" type="text/css" href="resources/framework.css">
-	<link rel="stylesheet" type="text/css" href="resources/about.css">
-	<link rel="stylesheet" type="text/css" href="resources/main.css">
+	<!-- <link rel="stylesheet" type="text/css" href="resources/about.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="resources/test.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="resources/main.css"> -->
 	<!-- <link rel="stylesheet" type="text/css" href="resources/test.css"> -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script> 
 	<script src="resources/main.js" type="text/javascript"></script> 
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </head>
 <body>
+	
+	<!-- Header_________________________________________________ -->
+	<a name="linktotop"></a>
+	<div id="header" class="header">
+		<div class="container">
+			<div class="header-content">
+				<div class="row">
+					<div class="col-xs-3 home"> 
+						<div class="hamburguer">
+							<div class="bread"></div>
+							<div class="bread"></div>
+							<div class="bread"></div>
+						</div>
+					</div>
+					<div class="col-xs-6 home">Utopian Robotics</div>
+					<div class="col-xs-3 home"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<!-- Landing_________________________________________________ -->
+	<div class="background-lander" id="landing">
+	</div>
 
-	<div class="test-container">
-		<div class="material-panel" id="contact-panel">
-			<div class="about-title" id="contact-title">Contact us</div>
+	<div class="content">
+		<!-- Meet the team ============================================-->
+		<div class="board material-board">
+			<div class="board-title">Meet the team!</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="team-member">
+							<a class="round-link" href="member.html">
+								<div class="headshot" style="background-image: url('resources/images/alan.jpeg');">					
+								</div>
+								<div class="member-description">
+									<h6>Gon</h6>
+									<p>Born manipulator.</p>
+								</div>
+							</a>
+						</div>
+					</div>
 
-			<div class="contact-content">
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="team-member">
+							<a class="round-link" href="member.html">
+								<div class="headshot" style="background-image: url('resources/images/alan.jpeg');">					
+								</div>
+								<div class="member-description">
+									<h6>Sofia</h6>
+									<p>Money maker.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="team-member">
+							<a class="round-link" href="member.html">
+								<div class="headshot" style="background-image: url('resources/images/alan.jpeg');">					
+								</div>
+								<div class="member-description">
+									<h6>Miguel</h6>
+									<p>Control ninja.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="team-member">
+							<a class="round-link" href="member.html">
+								<div class="headshot" style="background-image: url('resources/images/alan.jpeg');">					
+								</div>
+								<div class="member-description">
+									<h6>Rodri</h6>
+									<p>Alan's navigator.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="team-member">
+							<a class="round-link" href="member.html">
+								<div class="headshot" style="background-image: url('resources/images/alan.jpeg');">					
+								</div>
+								<div class="member-description">
+									<h6>Alan</h6>
+									<p>I, robot.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="team-member">
+							<a class="round-link" href="member.html">
+								<div class="headshot" style="background-image: url('resources/images/mario.png');">					
+								</div>
+								<div class="member-description">
+									<h6>Mario</h6>
+									<p>Linux lover.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- Contact us ============================================-->
+		<div class="board material-board" id="contact">
+			<div class="board-title">
+				Contact us
+			</div>
+
+			<form class="contact-content" id="contact-form" name="contact-form">
 
 				<div class="field">
-					<div class="field-title">Address</div>
+					<div class="field-title">Name</div>
 					<div class="field-input">
-						<input type="email" name="email" class="material-panel input-box">					
+						<input type="text" name="name" class=" input-box" required>					
 					</div>
 				</div>
 
 				<div class="field">
-					<div class="field-title">Subject</div>
+					<div class="field-title">Email</div>
 					<div class="field-input">
-						<input type="text" name="subject" class="material-panel input-box">					
+						<input type="email" name="email" class=" input-box" required>					
 					</div>
 				</div>
 
 				<div class="field">
 					<div class="field-title">Message</div>
-					<div class="field-input" id="message">
-						<textarea id="message" class="material-panel input-box"></textarea>
+					<div class="field-input message">
+						<textarea id="message" class="input-box message" form="contact-form" required></textarea>
 					</div>
 				</div>
 				<div class="button-wrapper">
-					<input type="submit" name="submit" class="round-button">
+					<input id="send-button" type="submit" name="submit" class="round-button" value="Send">
 				</div>
+			</form>			
+			<div class="contact-content" id="contact-success" style="display: none">
+				Thank you for reaching us! We will get back to you as soon as posible.
 			</div>
-				
+
 		</div>
 	</div>
 
+	<div class="footer">
+		<div class="footer-content">
+			<div class="col-3">
+				<div class="logo">
+				</div>
+			</div>
+			<div class="col-6">
+			</div>
+			<div class="col-3">
+				<div class="footer-right-side">
+					<div class="footer-right-text">
+						Find us in:
+					</div>
+					<div class="footer-social-media">
+						<a class="media-link"><i class="fa fa-twitter fa-2x"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>
