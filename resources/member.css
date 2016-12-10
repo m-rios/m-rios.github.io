@@ -49,15 +49,18 @@ i {
 	height: 70px;
 }
 
-.material-panel {
+.bread {
+	background: #3b3b3b;
+}
+
+.board {
 	margin-top: 70px;
-	background: #f0c808;
+	/*background: #f0c808;*/
 	/*background: #ecbf31;*/
 
 	/*#ecbf31*/
 	/*background: #56ca0e;*/
-	padding-bottom: 50px;
-	margin-bottom: 100px;
+	padding: 0 20px 50px 20px;
 }
 
 .team-member:hover .headshot {
