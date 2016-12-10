@@ -1,0 +1,674 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"mari",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"boo",
+				"bottom"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"header",
+				"headerOffset"
+			],
+			[
+				"lan",
+				"landing_end"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"backro",
+				"background"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"bott",
+				"margin-bottom"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"h",
+				"h6\tTag"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"lign",
+				"line-height"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "resources/framework.css",
+			"settings":
+			{
+				"buffer_size": 4497,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/about.css",
+			"settings":
+			{
+				"buffer_size": 2202,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/member.css",
+			"settings":
+			{
+				"buffer_size": 1040,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/main.css",
+			"settings":
+			{
+				"buffer_size": 3002,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 93.0,
+		"last_filter": "reinde",
+		"selected_items":
+		[
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reidne",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"lore",
+				"LoremIpsum: (200) stick shake"
+			],
+			[
+				"lorem",
+				"LoremIpsum: (200) stick shake"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ipsum",
+				"LoremIpsum: (200) stick shake"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mario/Developer/Alan the robot/mariorios.bitbucket.org",
+		"/Users/mario/Developer/Alan the robot/mariorios.bitbucket.org/resources"
+	],
+	"file_history":
+	[
+		"/Users/mario/Developer/Alan the robot/mariorios.bitbucket.org/index.html",
+		"/Users/mario/Developer/Alan the robot/mariorios.bitbucket.org/resources/main.js",
+		"/Users/mario/Developer/Alan the robot/mariorios.bitbucket.org/member.html",
+		"/Users/mario/Developer/Alan the robot/mariorios.bitbucket.org/test.html",
+		"/Users/mario/Developer/Alan the robot/mariorios.bitbucket.org/resources/test.css",
+		"/Users/mario/Developer/Alan the robot/mariorios.bitbucket.org/.gitignore",
+		"/Users/mario/Developer/Alan the robot/mariorios.bitbucket.org/about.html",
+		"/Users/mario/Developer/Alan the robot/mariorios.bitbucket.org/header.html",
+		"/Users/mario/Developer/Alan the robot/mariorios.bitbucket.org/resources/side-nav.css",
+		"/Users/mario/Developer/Alan the robot/mariorios.bitbucket.org/resources/main.css",
+		"/Users/mario/Downloads/html5up-stellar/index.html",
+		"/Users/mario/Downloads/html5up-helios/index.html",
+		"/Users/mario/Downloads/html5up-helios/assets/fonts/fontawesome-webfont.eot"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/mario/Developer/Alan the robot/mariorios.bitbucket.org",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"10px",
+			"material",
+			"about",
+			"material",
+			"addClass",
+			"mobile",
+			"\t\t$(\"#",
+			"header",
+			"addClass",
+			"mobile",
+			"header",
+			"col-6",
+			"col",
+			"col-3",
+			"@screen-md-min",
+			"visible",
+			"mobile",
+			"visi",
+			"header",
+			"relative",
+			"display",
+			"relative",
+			"right",
+			"top",
+			"auto",
+			"hamburguer",
+			"3",
+			"xs",
+			"Address",
+			"dcdbd9",
+			"Footer",
+			"col-xs-12",
+			"Sofia",
+			"font-size",
+			"panel",
+			"font-size",
+			"about",
+			"col-md-4",
+			"col",
+			"e2e1e0",
+			"about",
+			"About",
+			"Utopian",
+			"data",
+			"dataType",
+			"application",
+			"message",
+			"obj",
+			"name",
+			"form",
+			"GET",
+			"json",
+			"POST",
+			"post",
+			"name",
+			"contact",
+			";",
+			"name",
+			"javascript",
+			"address",
+			"argument",
+			"required",
+			"div",
+			"Subject",
+			"contact",
+			"380395",
+			"material-panel",
+			"material",
+			"absolute",
+			"important",
+			"container",
+			"send",
+			"submit",
+			"button",
+			"contact",
+			"-",
+			"active",
+			"subject",
+			"Subject",
+			"200px",
+			"400px",
+			"Address",
+			"email",
+			"bottom",
+			"40px",
+			"contact",
+			"text",
+			"purple",
+			"framework",
+			"message",
+			"input",
+			"email",
+			"auto",
+			"400px",
+			"{\n",
+			"ffffff",
+			"Moar",
+			"100px",
+			"absolute",
+			"fixed",
+			"relative",
+			"white",
+			"https",
+			"footer",
+			"ecbf31",
+			"0c808",
+			"e7b32e",
+			"ecbf31",
+			"e1c30d",
+			"3E3585",
+			"7545C5",
+			"100px",
+			"7545C5",
+			"6E21EF",
+			"distance",
+			"elementOffset",
+			"my",
+			"20px",
+			"auto",
+			"about-content",
+			"about",
+			"EMAILADDRESS",
+			"envelope",
+			"mail",
+			"twitter",
+			"member",
+			"div",
+			"1de00a"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"material-panel"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "resources/framework.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4201.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/about.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2147,
+								1565
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/member.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								713,
+								713
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 334.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3002,
+								3002
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "utopian-robotics.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
