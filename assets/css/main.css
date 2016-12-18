@@ -3290,15 +3290,15 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #415FA9;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #2E4377;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #B1C052;
 		}
 
 		.wrapper.style2-alt {
@@ -3306,12 +3306,16 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			/*background-color: #b74e91;*/
+			/*background-color: #2ac669;*/
+			background-color: #34B869;
 		}
 
 		.wrapper.style3-alt {
 			background-color: #953d75;
 		}
+
+		/*wrapper.style4*/
 
 		.wrapper.fullscreen {
 			display: -moz-flex;
@@ -3571,7 +3575,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #1C2A4B;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3954,3 +3958,11 @@
 			}
 
 		}
+
+/*What we do*/
+
+.style2 img {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
