@@ -4223,7 +4223,7 @@
 
 		}
 
-section .test {
+.features section {
 	padding: 3.5em 3em 1em 0em;
 	display: flex;
 }
@@ -4244,7 +4244,7 @@ section .test {
 }
 
 @media screen and (max-width: 480px) {
-	section .test {
+	.features section {
 		padding: 2em 3em 1em 1.5em;
 		display: block;
 	}
