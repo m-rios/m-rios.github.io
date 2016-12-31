@@ -1622,7 +1622,7 @@
 	}
 
 	body {
-		background: #312450;
+		background: #1C2A4B;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -3816,10 +3816,7 @@
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-color: #8C1A1A;
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3908,7 +3905,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #C01A1A;
 						}
 
 		}
@@ -4251,4 +4248,10 @@
 	.icono {
 		padding: 0 1.5em 1em 0em;
 	}
+}
+
+footer img {
+	margin-right: 1.5em;
+	width: 2.5em;
+	height: auto;
 }
