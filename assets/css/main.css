@@ -4222,3 +4222,23 @@
 				}
 
 		}
+
+section .test {
+	padding: 3.5em 3em 1em 0em;
+	display: flex;
+}
+
+.icono {
+	padding: 0 1.5em 0 3em;
+}
+
+.icono img {
+	height: 2.5em;
+	width: auto;
+}
+
+@media screen and (max-width: 736px) {
+	.icono {
+	padding: 0 1.5em 0 1.5em;
+}
+}
