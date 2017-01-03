@@ -15,6 +15,6 @@ $('#form').on('submit', function () {
 	data["name"] = $('#name').val();
 	data["email"] = $('#email').val();
 	data["msg"] = $('#message').val();
-
 	jQuery.post("https://v1wesefrvk.execute-api.eu-central-1.amazonaws.com/prod/sendContactForm", data, "json");
+	// jQuery.post("localhost:8000", data, "json");
 })
