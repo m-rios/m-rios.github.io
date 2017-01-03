@@ -21,11 +21,12 @@
 				<div class="inner">
 					<nav>
 						<ul>
+							<li><img src="images/icons/utopian-robotics.svg" style="width: 3.5em; height: auto;"></li>
 							<li><a href="#intro">Welcome</a></li>
 							<li><a href="#one">Who we are</a></li>
 							<li><a href="#two">What we do</a></li>
 							<li><a href="#three">Get in touch</a></li>
-							<li><a href="blog">Read our blog</a></li>
+							<!-- <li><a href="blog">Read our blog</a></li> -->
 						</ul>
 					</nav>
 				</div>
@@ -50,54 +51,49 @@
 					<section id="one" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>Who we are</h2>
-							<p>We are a multidisciplinary group of students, majoring in Business Administration, Computer Science and Automation Engineering (a.k.a. putos amos del universo), from the University of Alcala in Spain.</p>
+							<p>We are a multidisciplinary group of students, majoring in Business Administration, Computer Science and Electronic and Industrial Automation from the University of Alcala in Spain.</p>
 							<div class="members">
 								<section>
 									<img src="images/headshots/gon.jpg">
 									<div class="description">
 										<h3>Gonzalo</h3>
-										<!-- <span class="icon major fa-code"></span> -->
-										<p>As an Electronic and Industrial Automation student I always wanted to do my final dissertation in the robotic field and I think that participating in this contest is a great opportunity to challenge ourselves. I am in charged of Alan's little robotics arms.</p>
+										<p>As an Electronic and Industrial Automation student I always wanted to do my final dissertation in the robotic field and I think that participating in this contest is a great opportunity to challenge ourselves. I am in charge of Alan's little robotics arms.</p>
 									</div>
 								</section>
 								<section>
 									<img src="images/headshots/miguel2.jpg">
 									<div class="description">
 										<h3>Miguel</h3>
-										<!-- <span class="icon major fa-code"></span> -->
-										<p>Electronic and Industrial Automation student. I’m a control theory lover in my last degree year. I wanted my thesis to be about electronic control to combine two of my passions. And, here I am, being in charge of Alan’s  motors and trayectories control, making it go whereever it wants.</p>
+										<p>Electronic and Industrial Automation student. I’m a control theory lover in my last degree year. I wanted my thesis to be about electronic control to combine two of my passions. And, here I am, being in charge of Alan’s  motors and trayectories control, making him go where ever he wants.</p>
 									</div>
 								</section>
 								<section>
 									<img src="images/headshots/sofia.jpg">
 									<div class="description">
 										<h3>Sofia</h3>
-										<!-- <span class="icon major fa-code"></span> -->
 										<p>Bussines management student. I'm interested in economics and negotiation skills. That's why I'm the one in charge of securing the budget!</p>
 									</div>
 								</section>
 								<section>
-									<img src="images/headshots/alan.jpeg">
+									<img src="images/headshots/rodri2.jpg">
 									<div class="description">
 										<h3>Rodrigo</h3>
-										<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+										<p>Electronic and Industrial Automation student. I am finishing my degree this year and I love digital electronics and programming. Alan can be easily distracted, so here I am to tell him where he is. I also communicate each part of his little brain.</p>
 									</div>
 								</section>
 								<section>
 									<img src="images/headshots/mario.png">
 									<div class="description">
 										<h3>Mario</h3>
-										<!-- <span class="icon major fa-code"></span> -->
-										<p>Computer scientist. I'm fascinated by Artificial Intelligence, and robots are cool, so here I am, developing Alan's computer vision and decision making algorithms.
-										<!-- I'm mostly interested in computer vision and AI in mobile robotics. No wonder then why I'm in charge of alan's decision making and vision algorithms :). --></p>
+										<p>Computer science student. I'm fascinated by Artificial Intelligence, and robots are an excellent test bench for AI. My role in the team is to build Alan's computer vision and decision making algorithms, and to design the high level software architecture.
+										</p>
 									</div>
 								</section>
 								<section>
 									<img src="images/headshots/alan.jpeg">
 									<div class="description">
 										<h3>Alan</h3>
-										<!-- <span class="icon major fa-code"></span> -->
-										<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+										<p style="text-align: center">I robot.</p>
 									</div>
 								</section>
 							</div>
@@ -117,7 +113,7 @@
 										<img src="images/icons/arm.svg">
 									</div>
 									<div class="feature">
-										<h3> 6 DOF robotic arm </h3>
+										<h3> 4 DOF robotic arm </h3>
 										<p>For one of the tasks, we must pile up 16 boxex. We are building two robotic arms that will coordinate to pick them. </p>
 									</div>
 								</section>
@@ -157,10 +153,10 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>If you are interested in sponsoring us, or you are comming across a similar project and want to share some experiences, don't hesitate, let us know!</p>
+							<p>If you are interested in sponsoring us, or you are comming across a similar project and want to share some experiences, please, let us know!</p>
 							<div class="split style1">
 								<section>
-									<form method="post" onsubmit="submitForm" ">
+									<form id="form" method="post">
 										<div class="field half first">
 											<label for="name">Name</label>
 											<input type="text" name="name" id="name" />
@@ -209,7 +205,7 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li> <img src="images/icons/utopian-robotics.svg"> Utopian Robotics.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Robot arm icon by: <a href="http://www.flaticon.com/authors/simpleicon">SimpleIcon</a> from <a href="www.flaticon.com">www.flaticon.com</a></li>
+						<li> <img src="images/icons/utopian-robotics.svg"> Utopian Robotics.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Robot arm icon by: <a href="http://www.flaticon.com/authors/simpleicon">SimpleIcon</a> from <a href="http://www.flaticon.com">www.flaticon.com</a></li>
 					</ul>
 				</div>
 			</footer>
