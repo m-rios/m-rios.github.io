@@ -1696,6 +1696,7 @@
 
 	p {
 		margin: 0 0 2em 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -4254,4 +4255,10 @@ footer img {
 	margin-right: 1.5em;
 	width: 2.5em;
 	height: auto;
+}
+
+@media screen and (max-width: 1280px) {
+	nav img {
+		display: none;
+	}
 }
