@@ -4318,3 +4318,9 @@
 			width: 100%;
 		} 			
 	}
+
+	/* Partners */
+	.sponsors img {
+		width: 25%;
+		margin-top: 10px;
+	}
